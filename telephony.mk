@@ -1,10 +1,10 @@
 # Pixel APNs
 PRODUCT_COPY_FILES += \
-    vendor/CarrierSettings/telephony/apns-full-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+    vendor/google/CarrierSettings/telephony/apns-full-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
 
 # Include Carrier Runtime Configuration
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/CarrierSettings/overlay
+    vendor/google/CarrierSettings/overlay
 
 # CarrierSettings, replace CarrierConfig
 PRODUCT_PACKAGES += \
